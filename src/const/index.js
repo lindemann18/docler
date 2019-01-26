@@ -10,4 +10,4 @@ export const SEND_MESSAGE = 'SEND_MESSAGE';
 export const CHANGE_USER = 'CHANGE_USER';
 export const WRONG_USER = 'User can not be the same';
 export const EMPTY_USER = 'User name can not be an empty string';
-export const UPDATED_USER = 'User has been updated0';
+export const UPDATED_USER = 'User has been updated';
