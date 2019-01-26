@@ -1,0 +1,8 @@
+build/
+dist/
+node_modules/
+.history/
+.idea/*
+*.iml
+*.css
+

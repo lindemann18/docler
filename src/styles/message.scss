@@ -1,0 +1,33 @@
+.message {
+  list-style-type: none;
+  margin-bottom: 2%;
+  position: relative;
+  &__time {
+    font-size: 11px;
+    display: inline-block;
+    margin-left: 3%;
+    color: #ccc;
+  }
+  &__user {
+    font-size: 11px;
+    color: #3e5869;
+    opacity: 0.9;
+    margin-bottom: 6px;
+  }
+  &__text {
+    display: inline-block;
+    background: #5EA3D0;
+    color: #fff;
+    display: inline;
+    padding: 4px 8px;
+    border-radius: 8px;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  .message {
+    &__text {
+      font-size: 20px;
+    }
+  }
+}
