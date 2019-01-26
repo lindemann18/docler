@@ -35,10 +35,6 @@ function Chat(state = initialState, action) {
         currentUser,
       };
 
-    case SEND_MESSAGE:
-      console.log(action);
-      return state;
-
     case CHANGE_USER:
       const newUserName = action.payload.newUserName;
       return {
