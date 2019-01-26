@@ -9,7 +9,7 @@ To build the project just write "npm run build"
 
 ```bash
 npm run start
-npm run biild
+npm run build
 ```
 ## Users
 There are just two users registered for the chat.
