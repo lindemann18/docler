@@ -55,7 +55,7 @@ class userNameContainer extends Component {
   }
 }
 
-function mapStateToProps(state, props) {
+function mapStateToProps(state) {
   const { userName } = state.chat;
   return {
     userName,

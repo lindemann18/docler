@@ -40,7 +40,7 @@ class SendMessageForm extends Component {
   }
 }
 
-function mapStateToProps(state, props) {
+function mapStateToProps(state) {
   const { chatManager, messages } = state.chat;
   return {
     chatManager,
