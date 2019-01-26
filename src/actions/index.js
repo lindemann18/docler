@@ -5,6 +5,7 @@ import {
   GET_MESSAGES,
   INITIALIZE_CHAT_MANAGER,
   WRONG_USER,
+  UPDATED_USER,
 } from '../const';
 export const getMessages = () => (dispatch, getState) => {
   const state = getState();
@@ -50,7 +51,7 @@ export const updateUser = (user) => (dispatch, getState) => {
       type: INITIALIZE_CHAT_MANAGER,
     });
     dispatch(getMessages());
-    toastr.success('Attention', 'User has been updated');
+    toastr.success('Attention', UPDATED_USER);
   } else {
     toastr.error('Attention', WRONG_USER);
   }
